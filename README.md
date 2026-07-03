@@ -1,22 +1,5 @@
 # 🚀 Upskilling Roadmap
 
-
-!Status
-https://img.shields.io/badge/started-July__2026-blue
-https://img.shields.io/badge/focus__areas-7-purple
-![Last Updated](https://img.shields.io/badge/last__updated-July__2026-intainer](https://img.shields.io/badge/maintainer-Tommy__Bui-inform### 🎯 Progress by Focus Area
-
-| Area | Progress | Status |
-|------|----------|--------|
-| TypeScript | https://geps.dev/progress/10 | 🟡 Started |
-| Agentic Workflows | https://geps.dev/progress/0 | ⚪ Not started |
-| Prisma / Vercel / JS Libs | ![](https://geps.dev| Event-Driven Systems | https://geps.dev/progress/0 | ⚪ Not started |
-| Microservices Architecture | ! | ⚪ Not started |
-| Kafka | https://geps.dev/progress/0 | ⚪ Not started |
-| Cloud Deployment | https://geps.dev/progress/0 | ⚪ Not started |
-
----
-
 A personal learning tracker to document my journey into modern full-stack, event-driven, and cloud-native development.
 
 **Owner:** Tommy Bui  

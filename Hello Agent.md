@@ -6,7 +6,7 @@ A simple weather agent built with **LangChain + Azure OpenAI** to learn the core
 
 **Owner:** Tommy Bui  
 **Last Updated:** July 2026  
-**Roadmap Step:** 1 of 4 (see [/AGENTIC.md)
+**Roadmap Step:** 1 of 4 (see ./Agentic%20Workflows.md)
 
 ---
 
@@ -28,10 +28,10 @@ agentic-workflows/
 """
 hello_agent.py
 ---------------
-Step 1: "Hello World" Agent — a weather agent using LangChain + Azure OpenAI.
+Step 1: Hello World Agent — a weather agent using LangChain + Azure OpenAI.
 
 Goal: Understand the core agent loop:
-    User question → LLM decides → Tool call → LLM formats answer → Response
+    User question -> LLM decides -> Tool call -> LLM formats answer -> Response
 
 Author: Tommy Bui
 Date:   July 2026
@@ -112,7 +112,7 @@ agent = create_tool_calling_agent(llm, tools, prompt)
 agent_executor = AgentExecutor(
     agent=agent,
     tools=tools,
-    verbose=True,   # 👀 see the agent's reasoning in the console
+    verbose=True,   # see the agent's reasoning in the console
 )
 
 # ─────────────────────────────────────────────────────────────
@@ -167,56 +167,55 @@ __pycache__/
 
 ---
 
-## ▶️ How to Run*
-````bash
-# From the agentic-workf*ows folder
-pip install -r requirem*nts.txt
+## ▶️ How to Run
+
+*```*ash
+# From the agentic-workflows f*lder
+pip install -r requirements.t*t
 python hello_agent.py
-````*
-### Try prompts like:
-- *"What's *he weather in London?"*
-- *"Is it *armer in Paris or Tokyo right now?** → agent should call the tool **t*ice**
-- *"Tell me a joke"* → agent*should **not** call the tool (test* judgement)
+````
 
----
+### *ry prompts like:*- "What's the weather in London?"
+* "Is it warmer in Paris or Tokyo r*ght now?" — agent should call the *ool **twice**
+- "T*ll me a joke" — agent should **not** call the tool (tests judgement)
+*---
 
-## 🧠 What to No*ice When It Runs
+## 🧠 What to Notice When It *uns
 
-With `verbose=Tr*e`, you'll see the agent's inner m*nologue:
+With `verbose=True*, you'll see the agent's inner mon*logue:
 
 ````
-> Entering new Agen*Executor chain...
-Invoking: `get_w*ather` with `{'city': 'London'}`
-L*ndon: 18°C, light rain.
-The weathe* in London is currently 18°C with *ight rain. ☔
-> Finished chain.
-```*
-
-> 🎯 **That's the agent loop in *ction** — LLM decided to call a to*l, got the result, then formatted * natural response. Everything else*in agentic AI is a variation of th*s pattern.
-
----
-
-## 🚀 Stretch Goa*s
-
-- [ ] Add a **second tool** (e.*. `get_forecast` for 5-day outlook*
-- [ ] Add **conversation memory***so it remembers previous cities
-- * ] Swap OpenWeather for a **UK-spe*ific API** (Met Office DataHub)
-- * ] Log every run to a file for lat*r review (prep for Step 4 observab*lity)
+> Entering new AgentE*ecutor chain...
+Invoking: `get_wea*her` with `*'city': 'London'}`
+London: 18°C, l*ght rain.
+The weather in London is*currently 18°C with light rain. ☔
+* Finished chain.
+````*
+> 🎯 **That's the agent loop in a*tion** — LLM decided to call a too*, got the result, then formatted a*natural response.*Everything else in agentic AI is a*variation of this pattern.
 
 ---
 
-## ✅ Completion Checkl*st
+#* 🚀 Stretch Goals
 
-- [ ] Azure OpenAI keys added *o `.env`
-- [ ] OpenWeather API key*added to `.env`
-- [ ] `pip install*-r requirements.txt` runs clean
-- * ] Agent answers a weather questio* successfully
-- [ ] Agent correctl* ignores non-weather questions
-- [*] At least one stretch goal comple*ed
+- [ ] Add a **s*cond tool** (e.g. `get_forecast`*for 5-day outlook)
+- [ ] Add **con*ersation memory** so it remembers *revious cities
+- [ ] Swap OpenWeat*er for a***UK-specific API** (Met Office Da*aHub)
+- [ ] Log every run to a fil* for later review (prep for Step 4*observability)
 
 ---
 
-## 🔗 Related Pages
-- `..*README.md` — main roadmap
-- ../AGE*TIC.md — full 4-week agentic workf*ow plan
-- ../FOUNDATIONS.md — prio* exper*ence mapping
+## ✅ Completi*n Checklist
+
+- [ ] Azure OpenAI ke*s added to `.env`
+- [ ] OpenWeathe* API key added to `.env`
+- [ ] `pi* install -r requirements.txt` runs*clean
+- [ ] Agent answers a weathe* question successfully
+- [ ] Agent*correctly ignores non-weather ques*ions
+- [ ] At least one stretch go*l completed
+
+---
+
+## 🔗 Related Pa*es
+- ./README.md — main roadmap
+- */Agentic%20Workflows.md — full 4-w*ek agentic workflow plan
+- ./Found*tion%20Skills.md — prior experienc* mapping

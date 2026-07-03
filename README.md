@@ -1,5 +1,31 @@
 # 🚀 Upskilling Roadmap
 
+![Statusimg.shields.io/badge/status-in__progress-yellow
+![Start Date](https://img.shields.io/badge/startedue
+![Focus Areas](https://img.shields.io/badge/focple
+![Last Updated](https://img.shields.io/badge/last__updated-July__2026-brtional
+
+### 📊 Overall Progress
+![Progress](https://progress-bar.xyz/5/?titledth=400&color=babaca
+
+`▓▓░░░░░░░░░░░░░░░░░░` **5%**
+
+---
+
+### 🎯 Progress by Focus Area
+
+| Area | Progress | Status |
+|------|----------|--------|
+| TypeScript | ![](https://progress-bar.xyz/10dth=120&color=3178c6 | 🟡 Started |
+| Agentic Workflows | ![](https://progress-bar.xyz/0/?width=120&color=ff6f ⚪ Not started |
+| Prisma / Vercel / JS Libs | ![](https://progress-bar.xyz/0/?width=120&color=000| ⚪ Not started |
+| Event-Driven Systems | ![](https://progress-bar.xyz/0/?width=120&color=61 | ⚪ Not started |
+| Microservices Architecture | ![](https://progress-bar.xyz/0/?width=120&color=ec | ⚪ Not started |
+| Kafka | ![](https://progress-bar.xyz/0/?width=120&color=231| ⚪ Not started |
+| Cloud Deployment | ![](https://progress-bar.xyz/0/?width=120&color=0078 ⚪ Not started |
+
+---
+
 A personal learning tracker to document my journey into modern full-stack, event-driven, and cloud-native development.
 
 **Owner:** Tommy Bui  

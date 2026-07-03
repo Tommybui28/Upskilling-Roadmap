@@ -1,28 +1,19 @@
 # 🚀 Upskilling Roadmap
 
-![Statusimg.shields.io/badge/status-in__progress-yellow
-![Start Date](https://img.shields.io/badge/startedue
-![Focus Areas](https://img.shields.io/badge/focple
-![Last Updated](https://img.shields.io/badge/last__updated-July__2026-brtional
 
-### 📊 Overall Progress
-![Progress](https://progress-bar.xyz/5/?titledth=400&color=babaca
-
-`▓▓░░░░░░░░░░░░░░░░░░` **5%**
-
----
-
-### 🎯 Progress by Focus Area
+!Status
+https://img.shields.io/badge/started-July__2026-blue
+https://img.shields.io/badge/focus__areas-7-purple
+![Last Updated](https://img.shields.io/badge/last__updated-July__2026-intainer](https://img.shields.io/badge/maintainer-Tommy__Bui-inform### 🎯 Progress by Focus Area
 
 | Area | Progress | Status |
 |------|----------|--------|
-| TypeScript | ![](https://progress-bar.xyz/10dth=120&color=3178c6 | 🟡 Started |
-| Agentic Workflows | ![](https://progress-bar.xyz/0/?width=120&color=ff6f ⚪ Not started |
-| Prisma / Vercel / JS Libs | ![](https://progress-bar.xyz/0/?width=120&color=000| ⚪ Not started |
-| Event-Driven Systems | ![](https://progress-bar.xyz/0/?width=120&color=61 | ⚪ Not started |
-| Microservices Architecture | ![](https://progress-bar.xyz/0/?width=120&color=ec | ⚪ Not started |
-| Kafka | ![](https://progress-bar.xyz/0/?width=120&color=231| ⚪ Not started |
-| Cloud Deployment | ![](https://progress-bar.xyz/0/?width=120&color=0078 ⚪ Not started |
+| TypeScript | https://geps.dev/progress/10 | 🟡 Started |
+| Agentic Workflows | https://geps.dev/progress/0 | ⚪ Not started |
+| Prisma / Vercel / JS Libs | ![](https://geps.dev| Event-Driven Systems | https://geps.dev/progress/0 | ⚪ Not started |
+| Microservices Architecture | ! | ⚪ Not started |
+| Kafka | https://geps.dev/progress/0 | ⚪ Not started |
+| Cloud Deployment | https://geps.dev/progress/0 | ⚪ Not started |
 
 ---
 

@@ -76,5 +76,34 @@ A personal learning tracker to document my journey into modern full-stack, event
 - [ ] Explore Confluent Cloud (managed Kafka)
 - [ ] Integrate Kafka into the microservices demo
 
+
 ### 7. Deploy Apps on Cloud
 - [ ] Deploy a container to Azure (App Service / Container Apps)
+- [ ] Try AWS (ECS / Lambda) or GCP (Cloud Run)
+- [ ] Set up CI/CD with GitHub Actions
+- [ ] Configure secrets management (Key Vault / Doppler)
+- [ ] Add monitoring (App Insights / Datadog / Grafana)
+- [ ] Practice Infrastructure as Code (Terraform / Bicep)
+
+---
+
+## 📂 Repo Structure (planned)
+/typescript-basics
+/agentic-workflows
+/prisma-vercel-demo
+/event-driven-demo
+/microservices-demo
+/kafka-playground
+/cloud-deployments
+
+---
+
+## 📝 Notes & Learnings
+- [ ] Add weekly learning log
+- [ ] Link blog posts / articles that helped
+- [ ] Track completed courses & certifications
+
+---
+
+## 🎯 End Goal
+Become confident building, deploying, and operating modern **event-driven, agent-powered, cloud-native applications** end-to-end.
